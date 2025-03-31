@@ -30,6 +30,22 @@ const swiper = new Swiper('.swiper', {
     pagination: {
       el: '.swiper-pagination',
     },
+
+    // Responsive Breakpoints
+  breakpoints: {
+    320: {  // Small screens (phones)
+      slidesPerView: 1,
+      spaceBetween: 10,
+    },
+    768: {  // Tablets
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    1024: { // Laptops & desktops
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+  },
   
     // Navigation arrows
     // navigation: {
