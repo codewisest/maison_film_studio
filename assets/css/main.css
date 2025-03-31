@@ -62,9 +62,12 @@ a {
 h1 {
     font-size: 3rem;
     text-align: center;
-    margin-bottom: 2.5rem;
+    margin-bottom: 3rem;
     letter-spacing: 3px;
     text-shadow: 2px 1px 4px #000;
+    line-height: 1.4;
+    color: var(--foreground-color);
+    text-transform: capitalize;
 }
 
 h1 span {
@@ -200,7 +203,8 @@ transform: translateY(-13px) rotate(-45deg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: var(--foreground-color);
+    color: var(--foreground-color-darker);
+
     padding: 2rem;
 }
 
@@ -209,6 +213,20 @@ transform: translateY(-13px) rotate(-45deg);
     letter-spacing: 1px;
     text-shadow: 2px 1px 4px #000;
     margin-bottom: 2rem;
+}
+
+.hero b {
+}
+
+.book_call {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 2rem;
+}
+
+.book_call a {
+  display: inline-block;
+  margin-right: 2rem;
 }
 
 /* SWIPER */
@@ -336,6 +354,66 @@ transform: translateY(-13px) rotate(-45deg);
  .community_text p {
     margin-top: 0;
  }
+
+ /* FORM SECTION */
+ .inquire form {
+    background: var(--background-color-light); /* Corrected form background color */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    color: white; /* Ensuring text is visible */
+    margin: 0 auto;
+}
+
+.inquire h2 {
+    text-align: center;
+    color: var(--accent-color);
+    margin-bottom: 20px;
+}
+
+.inquire label {
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px;
+    color: white;
+}
+
+.inquire input,
+.inquire textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent inputs */
+    color: white;
+}
+
+.inquire input::placeholder,
+.inquire textarea::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.inquire button {
+    width: 100%;
+    color: white;
+    background: #0071E3;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.inquire button:hover {
+    background: #005bb5;
+    color: white;
+}
 
 
   /* FOOTER */

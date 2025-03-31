@@ -14,6 +14,7 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <script defer src="./assets/js/main.js"></script>
 </head>
 <body>
@@ -33,11 +34,12 @@
         <main>
             <div class="container">
                 <section class="hero">
-                    <h1>Crafting Timeless Imagery, <span>One Frame at a Time.</span>
+                    <b>🚨 ATTENTION creative ENTREPRENEURS 🚨</b>
+                    <h1>The all-in-One Studio solution for projects with no creative limits
                     </h1>
                     <p>Step into a studio where world-class lighting meets exclusive effects – all at an unbeatable price.
                     </p>
-                    <a class="btn book_now" href="#">Book Now</a>
+                    <span class="book_call"><a class="btn book_now" href="#">Book Now</a> or Call 905-222-0000</span>
                 </section>
                 <section class="slider_one">
                     <!-- Slider main container -->
@@ -102,7 +104,40 @@
                         <p>We’re more than just a historic venue: We’re a part of Toronto’s vibrant and unmatched creative community! As an inclusive and welcoming hub, Maison Film Studios is proud to support and celebrate the diversity that makes this city extraordinary. Whether you're hosting an event or creating something new, you’re contributing to a collective spirit of creativity that defines who we are.</p>
                     </div>
                 </section>
-                <section class="form"></section>
+                <section class="form inquire">
+                    <h2>Inquiry Form</h2>
+                    <form action="submit.php" method="POST">
+                        <label for="firstname">First Name:</label>
+                        <input type="text" id="firstname" name="firstname" required>
+                    
+                        <label for="lastname">Last Name:</label>
+                        <input type="text" id="lastname" name="lastname" required>
+                    
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    
+                        <label for="preferred-date">Preferred Date:</label>
+                        <input type="date" id="preferred-date" name="preferred_date" required>
+                    
+                        <label for="alternative-date">Alternative Date:</label>
+                        <input type="date" id="alternative-date" name="alternative_date">
+                    
+                        <label for="start-time">Start Time:</label>
+                        <input type="time" id="start-time" name="start_time" required>
+                    
+                        <label for="end-time">End Time:</label>
+                        <input type="time" id="end-time" name="end_time" required>
+                    
+                        <label for="details">Additional Details:</label>
+                        <textarea id="details" name="details" rows="4"></textarea>
+                    
+                        <button type="submit">Book Now</button>
+                    </form>
+                    
+                </section>
             </div>
         </main>
         <footer>
