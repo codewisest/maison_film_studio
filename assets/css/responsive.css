@@ -10,6 +10,13 @@
     .hero {
         padding-top: 4rem;
     }
+
+    .clients_logos {
+        
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        
+        
+      }
 }
 
 @media screen and (min-width: 800px) {

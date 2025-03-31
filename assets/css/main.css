@@ -257,6 +257,33 @@ transform: translateY(-13px) rotate(-45deg);
     background-image: url(../images/slide_4.JPG);
   }
 
+  /* CLIENTS */
+  .clients {
+    background-image: linear-gradient(135deg, #0f172acb, #050d24e7, #0e213fde), url(../images/clients.JPG);
+    object-fit: fill;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color: var(--foreground-color);
+    padding: 4rem 0;
+  }
+
+  .clients_logos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    align-items: center;
+    justify-items: center;
+    padding: 4rem 0;
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  .clients_logos img {
+    width: 80px;
+    margin-bottom: 2rem;
+  }
   /* CUTTING EDGE */
   .cutting_edge {
     background-color: var(--background-color);
