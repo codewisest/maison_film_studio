@@ -396,12 +396,14 @@ transform: translateY(-13px) rotate(-45deg);
   .dummy_content p {
     color: var(--foreground-color-darker);
     letter-spacing: 1px;
+    font-size: 2rem;
   }
 
   .dummy_content h2 {
     letter-spacing: 1px;
     text-align: center;
     margin-bottom: 1.5rem;
+    font-size: 2.5rem;
   }
 
   /* DUMMY TWO SECTION */
