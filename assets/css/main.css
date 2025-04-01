@@ -530,6 +530,11 @@ transform: translateY(-13px) rotate(-45deg);
   footer form {
     margin-top: 1.2rem;
   }
+
+  footer .subscribe {
+    margin-bottom: 4rem;
+  }
+
   .subscribe, .mid {
     background-color: var(--background-color-light);
     padding: 2rem;
