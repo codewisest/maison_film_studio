@@ -216,12 +216,16 @@ transform: translateY(-13px) rotate(-45deg);
 }
 
 .hero b {
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  text-align: center;
+  display: block;
 }
 
 .book_call {
   font-weight: 600;
   letter-spacing: 1px;
-  font-size: 1.4rem;
+  font-size: 2rem;
 }
 
 .book_call a {
