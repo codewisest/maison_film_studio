@@ -197,7 +197,7 @@ transform: translateY(-13px) rotate(-45deg);
 /* HERO */
 
 .hero {
-    height: 400px;
+    height: 500px;
     margin-top: 4rem;
     background-image: linear-gradient(135deg, #0f172a7e, #1e40af82, #3b83f6a6), url(../images/hero.jpg);
     background-size: cover;
@@ -209,7 +209,7 @@ transform: translateY(-13px) rotate(-45deg);
 }
 
 .hero p {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     letter-spacing: 1px;
     text-shadow: 2px 1px 4px #000;
     margin-bottom: 2rem;
@@ -221,7 +221,7 @@ transform: translateY(-13px) rotate(-45deg);
 .book_call {
   font-weight: 600;
   letter-spacing: 1px;
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 
 .book_call a {
