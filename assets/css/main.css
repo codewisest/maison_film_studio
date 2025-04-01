@@ -216,7 +216,7 @@ transform: translateY(-13px) rotate(-45deg);
 }
 
 .hero b {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   letter-spacing: 1px;
   text-align: center;
   display: block;
@@ -225,7 +225,7 @@ transform: translateY(-13px) rotate(-45deg);
 .book_call {
   font-weight: 600;
   letter-spacing: 1px;
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 
 .book_call a {
