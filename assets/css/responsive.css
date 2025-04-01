@@ -24,6 +24,10 @@
         font-size: 2.3rem;
     }
 
+    .dummy_2_content .text {
+        max-width: 650px;
+    }
+
     footer .mid {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -93,6 +97,18 @@
 
     .hero p {
         font-size: 2.4rem;
+    }
+
+    .dummy_2_content .text {
+        max-width: 750px;
+    }
+
+    .dummy_2_content h2 {
+        font-size: 3rem;
+    }
+
+    .dummy_2_content p {
+        font-size: 2.2rem;
     }
 }
 
@@ -182,7 +198,19 @@
     .map {
         max-width: 800px;
         margin: 1.5rem 0;
-      }
+    }
+
+    .dummy_2_content .text {
+        max-width: 850px;
+    }
+
+    .dummy_2_content h2 {
+        font-size: 4rem;
+    }
+
+    .dummy_2_content p {
+        font-size: 2.4rem;
+    }
 }
 
 @media screen and (min-width: 1200px) {
