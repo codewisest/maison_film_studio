@@ -182,20 +182,22 @@
                         <label for="phone">Phone:</label>
                         <input type="tel" id="phone" name="phone" required>
                     
-                        <label for="preferred-date">Preferred Date:</label>
-                        <input type="date" id="preferred-date" name="preferred_date" required>
+                        <label for="instagram">Instagram:</label>
+                        <input type="text" id="instagram" name="instagram" required>
                     
-                        <label for="alternative-date">Alternative Date:</label>
-                        <input type="date" id="alternative-date" name="alternative_date">
+                        <label for="project_type">Type of Project:</label>
+                            <select id="project_type" name="project_type">
+                                <option value="music_video">Music Video</option>
+                                <option value="commercial">Commercial</option>
+                                <option value="dance">Dance Video</option>
+                                <option value="photoshoot">Photoshoot</option>
+                                <option value="automotive">Automotive</option>
+                                <option value="experimental">Experimental</option>
+                                <option value="rock">Rock</option>
+                            </select>
                     
-                        <label for="start-time">Start Time:</label>
-                        <input type="time" id="start-time" name="start_time" required>
-                    
-                        <label for="end-time">End Time:</label>
-                        <input type="time" id="end-time" name="end_time" required>
-                    
-                        <label for="details">Additional Details:</label>
-                        <textarea id="details" name="details" rows="4"></textarea>
+                        <label for="details">Tell use about your shoot (Date, type of production, Crew size)</label>
+                        <textarea id="details" name="details" rows="6"></textarea>
                     
                         <button type="submit">Book Now</button>
                     </form>

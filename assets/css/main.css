@@ -473,8 +473,17 @@ transform: translateY(-13px) rotate(-45deg);
  }
 
  /* FORM SECTION */
+ .inquire {
+  background-image: linear-gradient(135deg, #0f172acb, #050d24e7, #0e213fde), url(../images/form_bg.png);
+  object-fit: contain;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 4rem 2rem;
+ }
  .inquire form {
-    background: var(--background-color-light); /* Corrected form background color */
+  background: linear-gradient(135deg, #021b36, #462268);
+    /*background: var(--background-color-light);  Corrected form background color */
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -486,7 +495,7 @@ transform: translateY(-13px) rotate(-45deg);
 
 .inquire h2 {
     text-align: center;
-    color: var(--accent-color);
+    color: var(--foreground-color-darker);
     margin-bottom: 20px;
 }
 
@@ -495,10 +504,16 @@ transform: translateY(-13px) rotate(-45deg);
     display: block;
     margin: 10px 0 5px;
     color: white;
+    letter-spacing: 1px;
+}
+
+.inquire option {
+  color: #000;
 }
 
 .inquire input,
-.inquire textarea {
+.inquire textarea,
+.inquire select {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;

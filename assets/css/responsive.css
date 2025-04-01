@@ -114,6 +114,10 @@
     .community p {
         font-size: 2.2rem;
     }
+
+    .inquire form {
+        max-width: 500px;
+    }
 }
 
 @media screen and (min-width: 900px) {
@@ -151,6 +155,10 @@
 
     .hero p {
         max-width: 840px;
+    }
+
+    .inquire form {
+        max-width: 600px;
     }
 }
 
