@@ -391,19 +391,22 @@ transform: translateY(-13px) rotate(-45deg);
   }
 
   /* DUMMY SECTION */
-  .dummy_content {
+  .dummy_content,
+  .community {
     margin-top: 4rem;
     background-color: var(--background-color);
     color: var(--foreground-color);
   }
 
-  .dummy_content p {
+  .dummy_content p,
+  .community p {
     color: var(--foreground-color-darker);
     letter-spacing: 1px;
     font-size: 2rem;
   }
 
-  .dummy_content h2 {
+  .dummy_content h2,
+  .community h2 {
     letter-spacing: 1px;
     text-align: center;
     margin-bottom: 1.5rem;
@@ -460,8 +463,9 @@ transform: translateY(-13px) rotate(-45deg);
  }
 
  .community_text {
-    background-color: var(--background-color-light);
+    background-color: #282829b3;
     padding: 2rem;
+    margin-top: 2rem;
  }
 
  .community_text p {
