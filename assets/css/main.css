@@ -458,7 +458,7 @@ transform: translateY(-13px) rotate(-45deg);
  /* COMMUNITY SECTION */
  .community .container{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/community.jpg);
-    height: 600px;
+    /* height: 600px; */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -605,6 +605,7 @@ transform: translateY(-13px) rotate(-45deg);
     outline: none;
     border: none;
     width: 300px;
+    margin-bottom: 1.5rem;
   }
 
   .subscribe button {
@@ -685,3 +686,50 @@ transform: translateY(-13px) rotate(-45deg);
     display: flex;
     justify-content: space-between;
   }
+
+  /* Basic styling for the accordions */
+/* .accordion-wrapper {
+  max-width: 600px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+.accordion-outer {
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
+
+.accordion-heading {
+  background-color: #f5f5f5;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-weight: bold;
+  position: relative;
+}
+
+.accordion-heading:after {
+  content: "+";
+  position: absolute;
+  right: 15px;
+}
+
+.accordion-outer.is-open .accordion-heading:after {
+  content: "-";
+} */
+
+/* .accordion-content { */
+  /* padding: 15px;
+  background-color: white; */
+  /* display: none; Start hidden - will be shown by JS */
+/* } */
+
+/* Different color for the second set */
+/* .accordion-wrapper.set2 .accordion-heading {
+  background-color: #e0f7fa;
+} */
+
+/* Hover accordion style */
+/* .accordion-wrapper.on-hover .accordion-heading {
+  background-color: #e8f5e9;
+} */

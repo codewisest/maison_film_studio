@@ -58,3 +58,47 @@ const swiper = new Swiper('.swiper', {
     //   el: '.swiper-scrollbar',
     // },
   });
+
+  $(document).ready(function () {
+    // For the click-based accordions, the first one stays open
+    // $(".accordion-wrapper:not(.on-hover)").each(function () {
+    //   $(this).find(".accordion-outer:first").addClass("is-open");
+    //   $(this).find(".accordion-content:first").show();
+    // });
+  
+    // Click event for accordions without "on-hover" class
+    // $(".accordion-wrapper:not(.on-hover) .accordion-heading").click(function () {
+      // var $accordionContent = $(this).next(".accordion-content");
+      // var $accordionOuter = $(this).closest(".accordion-outer");
+      // var $parentWrapper = $(this).closest(".accordion-wrapper");
+  
+      // Slide up all other accordions IN THIS WRAPPER and remove the 'is-open' class
+      // $parentWrapper.find(".accordion-content").not($accordionContent).slideUp();
+      // $parentWrapper
+      //   .find(".accordion-outer")
+      //   .not($accordionOuter)
+      //   .removeClass("is-open");
+  
+      // Toggle the clicked accordion
+    //   if ($accordionContent.is(":visible")) {
+    //     $accordionContent.slideUp();
+    //     $accordionOuter.removeClass("is-open");
+    //   } else {
+    //     $accordionContent.slideDown();
+    //     $accordionOuter.addClass("is-open");
+    //   }
+    // });
+  
+    // // Optional: Add hover functionality for the hover accordions
+    // $(".accordion-wrapper.on-hover .accordion-heading").hover(
+    //   function () {
+    //     $(this).next(".accordion-content").stop().slideDown();
+    //     $(this).closest(".accordion-outer").addClass("is-open");
+    //   },
+    //   function () {
+    //     $(this).next(".accordion-content").stop().slideUp();
+    //     $(this).closest(".accordion-outer").removeClass("is-open");
+    //   }
+    // );
+  });
+  
