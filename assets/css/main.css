@@ -688,6 +688,15 @@ transform: translateY(-13px) rotate(-45deg);
   }
 
   /* Basic styling for the accordions */
+  .faqs {
+    background-image: linear-gradient(135deg, #0f172acb, #050d24e7, #0e213fde), url(../images/form_bg.png);
+    object-fit: contain;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 4rem 2rem;
+
+  }
   .faqs h2,
   .faqs p{
     text-align: center;
