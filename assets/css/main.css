@@ -97,6 +97,25 @@ section {
     margin-bottom: 4rem;
 }
 
+.thank_you {
+  background-image: linear-gradient(135deg, #0f172acb, #050d24e7, #0e213fde), url(../images/form_bg.png );
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.thank_you  h1 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
 
 /* HEADER SECTION */
 header {
