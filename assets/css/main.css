@@ -688,7 +688,11 @@ transform: translateY(-13px) rotate(-45deg);
   }
 
   /* Basic styling for the accordions */
-/* .accordion-wrapper {
+  .faqs h2,
+  .faqs p{
+    text-align: center;
+  }
+.accordion-wrapper {
   max-width: 600px;
   margin: 20px auto;
   font-family: Arial, sans-serif;
@@ -716,20 +720,20 @@ transform: translateY(-13px) rotate(-45deg);
 
 .accordion-outer.is-open .accordion-heading:after {
   content: "-";
-} */
+}
 
-/* .accordion-content { */
-  /* padding: 15px;
-  background-color: white; */
-  /* display: none; Start hidden - will be shown by JS */
-/* } */
+.accordion-content {
+  padding: 15px;
+  background-color: white;
+  display: none; /* Start hidden - will be shown by JS */
+}
 
 /* Different color for the second set */
-/* .accordion-wrapper.set2 .accordion-heading {
+.accordion-wrapper.set2 .accordion-heading {
   background-color: #e0f7fa;
-} */
+}
 
 /* Hover accordion style */
-/* .accordion-wrapper.on-hover .accordion-heading {
+.accordion-wrapper.on-hover .accordion-heading {
   background-color: #e8f5e9;
-} */
+}
