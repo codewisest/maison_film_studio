@@ -33,7 +33,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             "Details:\n$details";
 
     if (mail($to, $subject, $body, $headers)) {
-        echo "Your booking request has been sent successfully!";
+        header("Location: thankyou.html"); // Redirect to a thank-you page
+exit;
     } else {
         echo "Error sending your request. Please try again later.";
     }
