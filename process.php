@@ -8,6 +8,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $instagram = htmlspecialchars(trim($_POST['instagram']));
     $project_type = htmlspecialchars(trim($_POST['project_type']));
     $details = htmlspecialchars(trim($_POST['details']));
+    
+    // Handle checkboxes (convert array to a readable string)
+    $equipment = isset($_POST['equipment']) ? implode(", ", array_map('htmlspecialchars', $_POST['equipment'])) : "None";
 
     // Validate input
     if (empty($firstname) || empty($lastname) || empty($email) || empty($phone) || empty($instagram) || empty($project_type) || empty($details)) {
@@ -18,11 +21,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         die("Invalid email format.");
     }
 
-    // Example: Send email (Modify accordingly)
+    // Send email
     $to = "chijioke@chijioke.tech"; // Change to your email
     $subject = "New Booking Request";
     $headers = "From: $email\r\nReply-To: $email\r\nContent-Type: text/plain; charset=UTF-8";
-    
+
     $body = "New Booking Request:\n\n" .
             "First Name: $firstname\n" .
             "Last Name: $lastname\n" .
@@ -30,11 +33,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             "Phone: $phone\n" .
             "Instagram: $instagram\n" .
             "Project Type: $project_type\n" .
+            "Equipment Add-Ons: $equipment\n" . // Includes selected equipment
             "Details:\n$details";
 
     if (mail($to, $subject, $body, $headers)) {
         header("Location: thankyou.html"); // Redirect to a thank-you page
-exit;
+        exit;
     } else {
         echo "Error sending your request. Please try again later.";
     }
