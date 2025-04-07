@@ -127,9 +127,10 @@ header {
     width: 100px;
     height: 70px;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     /* border: 2px solid red; */
+    padding: 1rem 0 0 1rem;
 }
 
 header .logo a {
@@ -139,7 +140,7 @@ header .logo a {
 }
 
 header .logo a img {
-    height: 100%;
+    width: 150px;
     display: inline-block;
     margin-top: 0.5rem;
 }
@@ -794,3 +795,7 @@ input[type="checkbox"] {
 .add_ons legend {
   font-size: 2rem;
 }
+
+/* p#clock {
+  text-align: center;
+} */
