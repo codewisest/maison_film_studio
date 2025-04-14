@@ -784,6 +784,7 @@ transform: translateY(-13px) rotate(-45deg);
   .faqs h2,
   .faqs p{
     text-align: center;
+    color: var(--foreground-color-darker);
   }
 .accordion-wrapper {
   max-width: 600px;

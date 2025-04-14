@@ -218,14 +218,27 @@
     }
 
     .dummy_2_content h2,
-    .community h2 {
+    .community h2,
+    .sets h2,
+    .faqs h2 {
         font-size: 4rem;
     }
 
     .dummy_2_content p,
-    .community .community_text p {
+    .community .community_text p,
+    .sets p,
+    .faqs p {
         font-size: 2.4rem;
     }
+
+    .sets p {
+        max-width: 800px;
+        margin: auto;
+    }
+    .sets img {
+        width: 400px;
+       
+      }
 }
 
 @media screen and (min-width: 1200px) {
@@ -245,7 +258,8 @@
         
     }
 
-    .cutting_edge .text h2{
+    .cutting_edge .text h2,
+    .sets h2{
         font-size: 3.5rem;
     }
 
@@ -271,6 +285,11 @@
     .subscribe input {
         font-size: 2rem;
     }
+
+    .sets img {
+        width: 450px;
+       
+      }
 }
 
 @media screen and (min-width: 1400px) {
@@ -291,4 +310,13 @@
     .dummy_content p {
         font-size: 2.5rem;
     }
+
+    .sets .images  {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .sets img {
+        width: 500px;
+      }
 }
