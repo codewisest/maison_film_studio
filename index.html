@@ -21,12 +21,23 @@
     <div class="wrapper">
         <header>
             <div class="container">
-                <div class="logo">
-                    <a href="#">
-                        <img src="./assets/images/logo.png" alt="">
-                    </a>
-                    
+                <div class="top">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="./assets/images/logo.png" alt="">
+                        </a>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Studio Rental</a></li>
+                            <li><a href="#">Book Now</a></li>
+                        </ul>
+                    </nav>
                 </div>
+                
                 <p class="clock" id="clock">00:00:00 AM</p>
             </div>
             
@@ -84,7 +95,7 @@
                                     <div class="feature_card card_1">
                                         <h3>4 in 1 Studio</h3>
                                         <p>This Multi-purpose space has a full black-out VOID and a large Pre-Lit Cyclorama. The 3300sq studio is your creative playground, easily accessible with a drive in garage.</p>
-                                        <a class="btn" href="#">Download Studio PDF</a>
+                                        <a class="btn" href="tel:4168906310">Call 416-890-6310</a>
                                     </div>
                                     <div class="feature_card card_2">
                                         <h3><span class="superscript">+sq</span>2000</h3>
@@ -106,6 +117,9 @@
                                     </div>
                                 </div>
                             </div>
+                            <!-- <div class="spaces">
+                                
+                            </div> -->
                         </div>
                     </section>
                     <section class="clients">
@@ -113,19 +127,23 @@
                             <h2>Join 800+ Happy Clients
                             </h2>
                             <div class="clients_logos">
-                                <img src="./assets/images/the-beatles.png" alt="">
-                                <img src="./assets/images/amazon-music.png" alt="">
-                                <img src="./assets/images/audacity.png" alt="">
-                                <img src="./assets/images/fl-studio.png" alt="">
-                                <img src="./assets/images/google-photos.png" alt="">
-                                <img src="./assets/images/youtube.png" alt="">
-                                <img src="./assets/images/lmms.png" alt="">
-                                <img src="./assets/images/the-beatles.png" alt="">
+                                <img class="scale_5" src="./assets/images/universal-music-_-canvas.png" alt="">
+                                <img class="scale_3" src="./assets/images/anm.png" alt="">
+                                <img class="scale_2" src="./assets/images/barcadi_final.png" alt="">
+                                <img class="scale_9" src="./assets/images/Fujifilm_white.png" alt="">
+                                <img class="scale_5" src="./assets/images/cfe.png" alt="">
+                                <img class="scale_9" src="./assets/images/CitadelLogoHorizWhite1250px.png" alt="">
+                                <img class="scale_3" src="./assets/images/nikon.png" alt="">
+                                <img class="scale_3" src="./assets/images/instaFuji.png" alt="">
+                                <img class="scale_5" src="./assets/images/chris_hau.png" alt="">
+                                <img class="scale_2" src="./assets/images/estee.png" alt="">
+
+
                             </div>
                         </div>
                     </section>
                     <div class="scroll-container">
-                        <div class="scroll-text">🎥 Velvet<span class="invisible_letter">-</span>Couches 🎥 Velvet<span class="invisible_letter">-</span>Chairs 🎥 360<span class="invisible_letter">-</span>Themed<span class="invisible_letter">-</span>Room 🎥 Themed<span class="invisible_letter">-</span>Corners 🎥 Customizable 🎥 Wifi 🎥 Plants 🎥 Vanity<span class="invisible_letter">-</span>Station 🎥 Bathroom 🎥 Floor<span class="invisible_letter">-</span>Mirrors 🎥 Vintage<span class="invisible_letter">-</span>Furniture 🎥 Fun<span class="invisible_letter">-</span>Props 🎥 Working<span class="invisible_letter">-</span>Retro <span class="invisible_letter">-</span>TV 🎥 Smoke<span class="invisible_letter">-</span>Machine 🎥 Backdrops 🎥 Stands 🎥 Lights 🎥 Projector 🎥 Work<span class="invisible_letter">-</span>Tables 🎥 Aputure 🎥
+                        <div class="scroll-text">🎥 Velvet<span class="invisible_letter">-</span>Couches 🎥 Velvet<span class="invisible_letter">-</span>Chairs 🎥 360<span class="invisible_letter">-</span>Themed<span class="invisible_letter">-</span>Room 🎥 Themed<span class="invisible_letter">-</span>Corners 🎥 Customizable 🎥 Wifi 🎥 Plants 🎥 Vanity<span class="invisible_letter">-</span>Station 🎥 Bathroom 🎥 Floor<span class="invisible_letter">-</span>Mirrors 🎥 Vintage<span class="invisible_letter">-</span>Furniture 🎥 Fun<span class="invisible_letter">-</span>Props 🎥 Working<span class="invisible_letter">-</span>Retro<span class="invisible_letter">-</span>TV 🎥 Smoke<span class="invisible_letter">-</span>Machine 🎥 Backdrops 🎥 Stands 🎥 Lights 🎥 Projector 🎥 Work<span class="invisible_letter">-</span>Tables 🎥 Aputure 🎥
                         </div>
                     </div>
                 </section>
@@ -243,8 +261,11 @@
                                 <br>
                             </fieldset>
                     
-                        <label for="details">Tell use about your shoot (Date, type of production, Crew size)</label>
+                        <label for="details">Do you have any special booking requests?</label>
                         <textarea id="details" name="details" rows="6"></textarea>
+
+                        <label for="promo">Promotion Code:</label>
+                        <input type="text" id="promo" name="promo" required>
                     
                         <button type="submit">Submit Now</button>
                     </form>
