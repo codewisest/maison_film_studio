@@ -436,6 +436,36 @@ transform: translateY(-13px) rotate(-45deg);
     width: 80px;
     margin-bottom: 6rem;
   }
+
+  /* SETS */
+
+.sets {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../images/dummy_2.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: var(--foreground-color-darker);
+  display: grid;
+  padding: 2rem;
+}
+
+.sets h2 {
+  letter-spacing: 2px;
+}
+
+.sets p {
+  letter-spacing: 1px;
+}
+
+.sets .images {
+  margin-top: 2rem;
+}
+
+.sets img {
+  width: 350px;
+  margin: 1.5rem;
+}
+
   /* CUTTING EDGE */
   .cutting_edge {
     background-color: var(--background-color);
