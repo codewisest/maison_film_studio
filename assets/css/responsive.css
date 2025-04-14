@@ -236,7 +236,7 @@
         margin: auto;
     }
     .sets img,
-    .studio img {
+    .studio .images img {
         width: 400px;
        
       }
@@ -288,7 +288,7 @@
     }
 
     .sets img,
-    .studio img {
+    .studio .images img {
         width: 450px;
        
       }
@@ -319,7 +319,7 @@
     }
 
     .sets img,
-    .studio img {
+    .studio .images img {
         width: 500px;
       }
 }
