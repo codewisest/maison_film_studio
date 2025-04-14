@@ -235,7 +235,8 @@
         max-width: 800px;
         margin: auto;
     }
-    .sets img {
+    .sets img,
+    .studio img {
         width: 400px;
        
       }
@@ -286,7 +287,8 @@
         font-size: 2rem;
     }
 
-    .sets img {
+    .sets img,
+    .studio img {
         width: 450px;
        
       }
@@ -316,7 +318,8 @@
         margin: auto;
     }
 
-    .sets img {
+    .sets img,
+    .studio img {
         width: 500px;
       }
 }
